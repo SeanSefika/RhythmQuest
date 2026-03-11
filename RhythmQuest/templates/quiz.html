@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg p-4 text-center">
+
+                <h2 class="mb-4">🎓 Academic Challenge</h2>
+
+                <p class="mb-4 fs-5">
+                    Solve: <strong class="text-info">{{ question }}</strong>
+                </p>
+                <p class="small text-muted mb-4">Hint: Express as a fraction (e.g., 1/2) or decimal</p>
+
+                <form method="POST" action="/submit_quiz" novalidate>
+                    {{ form.hidden_tag() }}
+
+                    <div class="mb-3">
+                        {{ form.answer(class="form-control text-center" + (" is-invalid" if form.answer.errors else ""), placeholder="e.g., 1/2 or 0.5") }}
+                        {% if form.answer.errors %}
+                            <div class="invalid-feedback d-block">
+                                {% for error in form.answer.errors %}
+                                    <small>{{ error }}</small>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    {{ form.submit(class="btn btn-success btn-lg w-100") }}
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

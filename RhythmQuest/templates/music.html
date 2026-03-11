@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="text-center">
+
+    <h2 class="music-title mb-4">🎵 Rhythm Reaction Challenge</h2>
+
+    <p>Wait for the screen to turn GREEN and click as fast as possible!</p>
+
+    <button onclick="startGame()" class="btn btn-primary mt-3">
+        Start Game
+    </button>
+
+    <br><br>
+
+    <button id="clickBtn"
+            onclick="stopGame()"
+            class="btn btn-success music-button-glow"
+            disabled>
+        CLICK!
+    </button>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/music.js') }}"></script>
+
+{% endblock %}
