@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="center-container">
+
+    <div class="col-md-4">
+        <div class="card shadow-lg p-4">
+
+            <h2 class="text-center mb-3">🎵 RhythmQuest</h2>
+            <p class="text-center mb-4">Unlock Your Cognitive Rhythm</p>
+
+            <form method="POST" novalidate autocomplete="off">
+                {{ form.hidden_tag() }}
+
+                <!-- Email Field -->
+                <div class="mb-3">
+                    {{ form.email(class="form-control" + (" is-invalid" if form.email.errors else ""), placeholder="Email Address", autocomplete="off") }}
+                    {% if form.email.errors %}
+                        <div class="invalid-feedback d-block">
+                            {% for error in form.email.errors %}
+                                <small>{{ error }}</small>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+
+                <!-- Password Field -->
+                <div class="mb-4">
+                    {{ form.password(class="form-control" + (" is-invalid" if form.password.errors else ""), placeholder="Password", autocomplete="off") }}
+                    {% if form.password.errors %}
+                        <div class="invalid-feedback d-block">
+                            {% for error in form.password.errors %}
+                                <small>{{ error }}</small>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+
+                {{ form.submit(class="btn btn-primary w-100 mb-3") }}
+
+            </form>
+
+            <div class="text-center">
+                <p class="text-muted">Don't have an account? <a href="/register">Register here</a></p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Clear form fields on page load -->
+<script>
+    // Forcefully clear all input fields
+    document.addEventListener('DOMContentLoaded', function() {
+        const inputs = document.querySelectorAll('input[type="text"], input[type="password"], input[type="email"]');
+        inputs.forEach(input => {
+            input.value = '';
+            input.defaultValue = '';
+            input.innerText = '';
+        });
+    });
+    
+    // Clear again after a slight delay for stubborn browsers
+    setTimeout(function() {
+        const inputs = document.querySelectorAll('input[type="text"], input[type="password"], input[type="email"]');
+        inputs.forEach(input => {
+            input.value = '';
+        });
+    }, 100);
+    
+    // Disable browser autocomplete completely
+    window.addEventListener('load', function() {
+        document.querySelectorAll('form').forEach(form => {
+            form.setAttribute('autocomplete', 'off');
+        });
+        document.querySelectorAll('input').forEach(input => {
+            input.setAttribute('autocomplete', 'off');
+        });
+    });
+</script>
+
+{% endblock %}

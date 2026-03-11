@@ -1,0 +1,116 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="center-container">
+
+    <div class="col-md-4">
+        <div class="card shadow-lg p-4">
+
+            <h2 class="text-center mb-3">🎓 Register</h2>
+            <p class="text-center mb-4 text-muted small">Create your RhythmQuest account</p>
+
+            <form method="POST" novalidate autocomplete="off">
+                {{ form.hidden_tag() }}
+
+                <!-- Name Field -->
+                <div class="mb-3">
+                    {{ form.name(class="form-control" + (" is-invalid" if form.name.errors else ""), placeholder="Full Name", autocomplete="off") }}
+                    {% if form.name.errors %}
+                        <div class="invalid-feedback d-block">
+                            {% for error in form.name.errors %}
+                                <small>{{ error }}</small>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+
+                <!-- Email Field -->
+                <div class="mb-3">
+                    {{ form.email(class="form-control" + (" is-invalid" if form.email.errors else ""), placeholder="Email Address", autocomplete="off") }}
+                    {% if form.email.errors %}
+                        <div class="invalid-feedback d-block">
+                            {% for error in form.email.errors %}
+                                <small>{{ error }}</small>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+
+                <!-- Password Field (with requirements) -->
+                <div class="mb-3">
+                    <label class="form-label small text-muted">Password Requirements:</label>
+                    <ul class="small text-muted" style="font-size: 0.85rem;">
+                        <li>At least 8 characters</li>
+                        <li>One uppercase letter (A-Z)</li>
+                        <li>One lowercase letter (a-z)</li>
+                        <li>One number (0-9)</li>
+                        <li>One special character (@$!%*?&)</li>
+                    </ul>
+                    {{ form.password(class="form-control" + (" is-invalid" if form.password.errors else ""), placeholder="Password", autocomplete="off") }}
+                    {% if form.password.errors %}
+                        <div class="invalid-feedback d-block">
+                            {% for error in form.password.errors %}
+                                <small>{{ error }}</small>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+
+                <!-- Confirm Password Field -->
+                <div class="mb-4">
+                    {{ form.confirm_password(class="form-control" + (" is-invalid" if form.confirm_password.errors else ""), placeholder="Confirm Password", autocomplete="off") }}
+                    {% if form.confirm_password.errors %}
+                        <div class="invalid-feedback d-block">
+                            {% for error in form.confirm_password.errors %}
+                                <small>{{ error }}</small>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+
+                {{ form.submit(class="btn btn-success w-100") }}
+
+            </form>
+
+            <div class="text-center mt-3">
+                <p class="text-muted">Already have an account? <a href="/login">Login here</a></p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Clear form fields on page load -->
+<script>
+    // Forcefully clear all input fields
+    document.addEventListener('DOMContentLoaded', function() {
+        const inputs = document.querySelectorAll('input[type="text"], input[type="password"], input[type="email"]');
+        inputs.forEach(input => {
+            input.value = '';
+            input.defaultValue = '';
+            input.innerText = '';
+        });
+    });
+    
+    // Clear again after a slight delay for stubborn browsers
+    setTimeout(function() {
+        const inputs = document.querySelectorAll('input[type="text"], input[type="password"], input[type="email"]');
+        inputs.forEach(input => {
+            input.value = '';
+        });
+    }, 100);
+    
+    // Disable browser autocomplete completely
+    window.addEventListener('load', function() {
+        document.querySelectorAll('form').forEach(form => {
+            form.setAttribute('autocomplete', 'off');
+        });
+        document.querySelectorAll('input').forEach(input => {
+            input.setAttribute('autocomplete', 'off');
+        });
+    });
+</script>
+
+{% endblock %}

@@ -1,0 +1,97 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+{% set overall_avg = (profile.avg_music + profile.avg_academic) / 2 %}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-md-8 mx-auto">
+            <!-- Profile Header -->
+            <div class="card shadow-lg p-4 mb-4">
+                <h2 class="mb-3">👤 My Profile</h2>
+                <hr>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Name:</strong> {{ profile.name }}</p>
+                        <p><strong>Email:</strong> {{ profile.email }}</p>
+                        <p><strong>Member Since:</strong> {{ profile.joined }}</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Total Attempts:</strong> {{ profile.total_attempts }}</p>
+                        <p><strong>Correct Answers:</strong> {{ profile.correct_answers }}</p>
+                        <p><strong>Accuracy:</strong> 
+                            {% if profile.total_attempts > 0 %}
+                                {{ "%.1f"|format((profile.correct_answers / profile.total_attempts) * 100) }}%
+                            {% else %}
+                                N/A
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Performance Statistics -->
+            <div class="card shadow-lg p-4">
+                <h3 class="mb-3">📊 Performance Statistics</h3>
+                <hr>
+                
+                <div class="row">
+                    <!-- Music Scores -->
+                    <div class="col-md-6 mb-3">
+                        <div class="card p-3" style="background: rgba(32, 201, 151, 0.1); border: 2px solid #20c997;">
+                            <h5 class="text-success">🎵 Music Challenge</h5>
+                            <p><strong>Average:</strong> {{ profile.avg_music }}/100</p>
+                            <p><strong>Best Score:</strong> {{ profile.max_music }}/100</p>
+                        </div>
+                    </div>
+
+                    <!-- Academic Scores -->
+                    <div class="col-md-6 mb-3">
+                        <div class="card p-3" style="background: rgba(111, 66, 193, 0.1); border: 2px solid #6f42c1;">
+                            <h5 class="text-info">🎓 Academic Challenge</h5>
+                            <p><strong>Average:</strong> {{ profile.avg_academic }}/100</p>
+                            <p><strong>Best Score:</strong> {{ profile.max_academic }}/100</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Overall Score -->
+                <div class="mt-3">
+                    <div class="card p-3" style="background: rgba(111, 66, 193, 0.2); border: 2px solid #8a63d2;">
+                        <h5>🏆 Overall Performance</h5>
+                        <p><strong>Combined Average:</strong> 
+                            {{ "%.1f"|format(overall_avg) }}/100
+                        </p>
+                        <div class="progress" style="height: 25px;">
+                            <div class="progress-bar bg-success" role="progressbar" 
+                                 data-overall="{{ overall_avg }}"
+                                 aria-valuenow="{{ overall_avg }}" 
+                                 aria-valuemin="0" aria-valuemax="100">
+                                {{ "%.0f"|format(overall_avg) }}%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="text-center mt-4">
+                <a href="/music" class="btn btn-primary btn-lg me-2">🎵 Start Challenge</a>
+                <a href="/dashboard" class="btn btn-success btn-lg">📊 View Dashboard</a>
+                <a href="/leaderboard" class="btn btn-warning btn-lg">🏆 Leaderboard</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Set overall performance progress bar width
+    document.querySelectorAll('.progress-bar[data-overall]').forEach(bar => {
+        const overall = bar.getAttribute('data-overall');
+        bar.style.width = overall + '%';
+    });
+</script>
+
+{% endblock %}
