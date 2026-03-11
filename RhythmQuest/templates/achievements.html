@@ -1,0 +1,162 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+{% set earned_count = achievements|selectattr('earned', 'equalto', true)|list|length %}
+{% set total_count = achievements|length %}
+{% set progress_percent = (earned_count / total_count * 100)|int if total_count > 0 else 0 %}
+
+<div class="container mt-4">
+    <!-- Achievements Header -->
+    <div class="card shadow-lg p-4 mb-4 text-center achievement-header">
+        <h2 class="mb-2">🏆 Achievements & Badges</h2>
+        <p class="text-muted mb-0">Unlock badges by completing challenges and improving your scores</p>
+    </div>
+
+    <!-- Stats Row -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card p-3 achievement-stats">
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <h5>Badges Earned</h5>
+                        <h3 class="text-success">
+                            {{ earned_count }} / {{ total_count }}
+                        </h3>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Progress</h5>
+                        <div class="progress-wrapper">
+                            <div class="progress" style="height: 25px;">
+                                <div class="progress-bar bg-success" role="progressbar" 
+                                     data-progress="{{ progress_percent }}"
+                                     aria-valuenow="{{ progress_percent }}" 
+                                     aria-valuemin="0" aria-valuemax="100">
+                                    {{ progress_percent }}%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Achievements Grid -->
+    <div class="row">
+        {% for achievement in achievements %}
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card shadow-lg p-4 text-center {% if achievement.earned %}achievement-earned{% else %}achievement-locked{% endif %}">
+                
+                <h2 class="mb-3">{{ achievement.icon }}</h2>
+                <h5 class="mb-2">{{ achievement.name }}</h5>
+                <p class="text-muted mb-3">{{ achievement.description }}</p>
+                
+                {% if achievement.earned %}
+                <span class="badge bg-success">✓ UNLOCKED</span>
+                {% else %}
+                <span class="badge bg-secondary">🔒 LOCKED</span>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Achievement Categories Legend -->
+    <div class="card shadow-lg p-4 mt-4">
+        <h4 class="mb-3">📖 How to Unlock Achievements</h4>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <strong>👟 First Step:</strong> Complete your first quiz
+                    </li>
+                    <li class="mb-2">
+                        <strong>🚀 Getting Started:</strong> Take 5 quizzes
+                    </li>
+                    <li class="mb-2">
+                        <strong>🎓 Quiz Master:</strong> Complete 25 quizzes
+                    </li>
+                    <li class="mb-2">
+                        <strong>💯 Perfect Score:</strong> Get 100% on a quiz
+                    </li>
+                    <li class="mb-2">
+                        <strong>⚡ Speed Racer:</strong> Score 100 on music challenge
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <strong>✨ Perfectionist:</strong> Get 10 perfect scores
+                    </li>
+                    <li class="mb-2">
+                        <strong>🏆 Climber:</strong> Reach top 10 on leaderboard
+                    </li>
+                    <li class="mb-2">
+                        <strong>📈 Consistent:</strong> Average score above 80%
+                    </li>
+                    <li class="mb-2">
+                        <strong>🔥 Marathoner:</strong> Complete 50 attempts
+                    </li>
+                    <li class="mb-2">
+                        <strong>👑 Legend:</strong> Average score above 90%
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="text-center mt-4 mb-4">
+        <a href="/profile" class="btn btn-info btn-lg me-2">👤 Back to Profile</a>
+        <a href="/music" class="btn btn-primary btn-lg">🎵 Continue Challenges</a>
+    </div>
+</div>
+
+<style>
+    .achievement-header {
+        background: rgba(251, 191, 36, 0.1);
+        border: 2px solid #fbbf24;
+    }
+    
+    .achievement-stats {
+        background: rgba(111, 66, 193, 0.1);
+        border: 2px solid #6f42c1;
+    }
+    
+    .progress-wrapper {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+    
+    .achievement-earned {
+        background: rgba(34, 197, 94, 0.1);
+        border: 2px solid #22c55e;
+    }
+    
+    .achievement-locked {
+        background: rgba(107, 114, 128, 0.1);
+        border: 2px solid #6b7280;
+        opacity: 0.7;
+    }
+    
+    .card {
+        transition: transform 0.3s ease;
+    }
+    
+    .card:hover {
+        transform: translateY(-5px);
+    }
+</style>
+
+<script>
+    // Set progress bar width from data attribute
+    document.querySelectorAll('.progress-bar[data-progress]').forEach(bar => {
+        const progress = bar.getAttribute('data-progress');
+        bar.style.width = progress + '%';
+    });
+</script>
+
+{% endblock %}

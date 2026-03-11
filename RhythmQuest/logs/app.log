@@ -1,0 +1,930 @@
+2026-03-07 22:58:28 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2026-03-07 22:58:28 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 22:58:28 - INFO -  * Restarting with stat
+2026-03-07 22:58:28 - WARNING -  * Debugger is active!
+2026-03-07 22:58:28 - INFO -  * Debugger PIN: 630-669-042
+2026-03-07 22:59:04 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:04] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-07 22:59:05 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:05] "GET /login HTTP/1.1" 200 -
+2026-03-07 22:59:05 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-07 22:59:05 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 22:59:13 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:13] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-03-07 22:59:14 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:14] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-07 22:59:14 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:14] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-07 22:59:14 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:14] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=9pwhDMY5PmftRCGmUTTi HTTP/1.1" 200 -
+2026-03-07 22:59:14 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:14] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-07 22:59:16 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:16] "GET /login HTTP/1.1" 200 -
+2026-03-07 22:59:28 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:28] "GET /register HTTP/1.1" 200 -
+2026-03-07 22:59:28 - INFO - 127.0.0.1 - - [07/Mar/2026 22:59:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:00:24 - INFO - 127.0.0.1 - - [07/Mar/2026 23:00:24] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-03-07 23:00:24 - INFO - 127.0.0.1 - - [07/Mar/2026 23:00:24] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-07 23:00:24 - INFO - 127.0.0.1 - - [07/Mar/2026 23:00:24] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-07 23:00:25 - INFO - 127.0.0.1 - - [07/Mar/2026 23:00:25] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=9pwhDMY5PmftRCGmUTTi HTTP/1.1" 200 -
+2026-03-07 23:00:25 - INFO - 127.0.0.1 - - [07/Mar/2026 23:00:25] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-07 23:05:54 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\setup_db.py', reloading
+2026-03-07 23:05:54 - INFO -  * Restarting with stat
+2026-03-07 23:05:54 - WARNING -  * Debugger is active!
+2026-03-07 23:05:54 - INFO -  * Debugger PIN: 630-669-042
+2026-03-07 23:06:04 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\setup_db.py', reloading
+2026-03-07 23:06:04 - INFO -  * Restarting with stat
+2026-03-07 23:06:05 - WARNING -  * Debugger is active!
+2026-03-07 23:06:05 - INFO -  * Debugger PIN: 630-669-042
+2026-03-07 23:06:16 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\setup_db.py', reloading
+2026-03-07 23:06:16 - INFO -  * Restarting with stat
+2026-03-07 23:06:16 - WARNING -  * Debugger is active!
+2026-03-07 23:06:16 - INFO -  * Debugger PIN: 630-669-042
+2026-03-07 23:06:22 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\setup_db.py', reloading
+2026-03-07 23:06:23 - INFO -  * Restarting with stat
+2026-03-07 23:06:23 - WARNING -  * Debugger is active!
+2026-03-07 23:06:23 - INFO -  * Debugger PIN: 630-669-042
+2026-03-07 23:06:24 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\setup_db.py', reloading
+2026-03-07 23:06:24 - INFO -  * Restarting with stat
+2026-03-07 23:06:24 - WARNING -  * Debugger is active!
+2026-03-07 23:06:24 - INFO -  * Debugger PIN: 630-669-042
+2026-03-07 23:06:52 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2026-03-07 23:06:52 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 23:06:52 - INFO -  * Restarting with stat
+2026-03-07 23:06:52 - WARNING -  * Debugger is active!
+2026-03-07 23:06:52 - INFO -  * Debugger PIN: 630-669-042
+2026-03-07 23:07:42 - INFO - 127.0.0.1 - - [07/Mar/2026 23:07:42] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-07 23:07:42 - INFO - 127.0.0.1 - - [07/Mar/2026 23:07:42] "GET /login HTTP/1.1" 200 -
+2026-03-07 23:07:42 - INFO - 127.0.0.1 - - [07/Mar/2026 23:07:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-07 23:07:43 - INFO - 127.0.0.1 - - [07/Mar/2026 23:07:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 23:08:05 - INFO - 127.0.0.1 - - [07/Mar/2026 23:08:05] "GET /register HTTP/1.1" 200 -
+2026-03-07 23:08:05 - INFO - 127.0.0.1 - - [07/Mar/2026 23:08:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:08:30 - INFO - 127.0.0.1 - - [07/Mar/2026 23:08:30] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-03-07 23:08:30 - INFO - 127.0.0.1 - - [07/Mar/2026 23:08:30] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-07 23:08:30 - INFO - 127.0.0.1 - - [07/Mar/2026 23:08:30] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-07 23:08:30 - INFO - 127.0.0.1 - - [07/Mar/2026 23:08:30] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=FP7tJcvHDvgzlIqasrAN HTTP/1.1" 200 -
+2026-03-07 23:08:30 - INFO - 127.0.0.1 - - [07/Mar/2026 23:08:30] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-07 23:09:20 - INFO - 127.0.0.1 - - [07/Mar/2026 23:09:20] "GET /register HTTP/1.1" 200 -
+2026-03-07 23:09:20 - INFO - 127.0.0.1 - - [07/Mar/2026 23:09:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:09:44 - INFO - 127.0.0.1 - - [07/Mar/2026 23:09:44] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-03-07 23:09:45 - INFO - 127.0.0.1 - - [07/Mar/2026 23:09:45] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:09:45 - INFO - 127.0.0.1 - - [07/Mar/2026 23:09:45] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-07 23:09:45 - INFO - 127.0.0.1 - - [07/Mar/2026 23:09:45] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=FP7tJcvHDvgzlIqasrAN HTTP/1.1[0m" 304 -
+2026-03-07 23:09:56 - INFO - 127.0.0.1 - - [07/Mar/2026 23:09:56] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-07 23:09:56 - INFO - 127.0.0.1 - - [07/Mar/2026 23:09:56] "GET /login HTTP/1.1" 200 -
+2026-03-07 23:09:56 - INFO - 127.0.0.1 - - [07/Mar/2026 23:09:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:10:03 - INFO - 127.0.0.1 - - [07/Mar/2026 23:10:03] "GET /register HTTP/1.1" 200 -
+2026-03-07 23:10:03 - INFO - 127.0.0.1 - - [07/Mar/2026 23:10:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:10:25 - INFO - 127.0.0.1 - - [07/Mar/2026 23:10:25] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-03-07 23:10:25 - INFO - 127.0.0.1 - - [07/Mar/2026 23:10:25] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:10:25 - INFO - 127.0.0.1 - - [07/Mar/2026 23:10:25] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-07 23:10:26 - INFO - 127.0.0.1 - - [07/Mar/2026 23:10:26] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=FP7tJcvHDvgzlIqasrAN HTTP/1.1" 200 -
+2026-03-07 23:11:34 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2026-03-07 23:11:34 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 23:11:34 - INFO -  * Restarting with stat
+2026-03-07 23:11:35 - WARNING -  * Debugger is active!
+2026-03-07 23:11:35 - INFO -  * Debugger PIN: 630-669-042
+2026-03-07 23:12:30 - INFO - 127.0.0.1 - - [07/Mar/2026 23:12:30] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-07 23:12:30 - INFO - 127.0.0.1 - - [07/Mar/2026 23:12:30] "GET /login HTTP/1.1" 200 -
+2026-03-07 23:12:30 - INFO - 127.0.0.1 - - [07/Mar/2026 23:12:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:12:31 - INFO - 127.0.0.1 - - [07/Mar/2026 23:12:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 23:13:12 - INFO - 127.0.0.1 - - [07/Mar/2026 23:13:12] "GET /register HTTP/1.1" 200 -
+2026-03-07 23:13:12 - INFO - 127.0.0.1 - - [07/Mar/2026 23:13:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:13:36 - INFO - New user registered: john@test.com
+2026-03-07 23:13:36 - INFO - 127.0.0.1 - - [07/Mar/2026 23:13:36] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-07 23:13:36 - INFO - 127.0.0.1 - - [07/Mar/2026 23:13:36] "GET /login HTTP/1.1" 200 -
+2026-03-07 23:13:36 - INFO - 127.0.0.1 - - [07/Mar/2026 23:13:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:13:54 - INFO - User logged in: john@test.com
+2026-03-07 23:13:54 - INFO - 127.0.0.1 - - [07/Mar/2026 23:13:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-07 23:13:54 - INFO - 127.0.0.1 - - [07/Mar/2026 23:13:54] "GET /music HTTP/1.1" 200 -
+2026-03-07 23:13:54 - INFO - 127.0.0.1 - - [07/Mar/2026 23:13:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:13:54 - INFO - 127.0.0.1 - - [07/Mar/2026 23:13:54] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-07 23:14:12 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:12] "GET /music HTTP/1.1" 200 -
+2026-03-07 23:14:12 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:14:12 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:12] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-07 23:14:20 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:20] "[32mGET /quiz?music_score=40 HTTP/1.1[0m" 302 -
+2026-03-07 23:14:21 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:21] "GET /music HTTP/1.1" 200 -
+2026-03-07 23:14:21 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:14:21 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:21] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-07 23:14:27 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:27] "[32mGET /quiz?music_score=40 HTTP/1.1[0m" 302 -
+2026-03-07 23:14:28 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:28] "GET /music HTTP/1.1" 200 -
+2026-03-07 23:14:28 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:14:28 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:28] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-07 23:14:31 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:31] "GET /dashboard HTTP/1.1" 200 -
+2026-03-07 23:14:31 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:14:32 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:32] "GET /music HTTP/1.1" 200 -
+2026-03-07 23:14:33 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:14:33 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:33] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-07 23:14:39 - ERROR - Quiz loading error: 'form' is undefined
+2026-03-07 23:14:39 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:39] "[32mGET /quiz?music_score=100 HTTP/1.1[0m" 302 -
+2026-03-07 23:14:40 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:40] "GET /music HTTP/1.1" 200 -
+2026-03-07 23:14:40 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:14:40 - INFO - 127.0.0.1 - - [07/Mar/2026 23:14:40] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-07 23:15:07 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:07] "GET /dashboard HTTP/1.1" 200 -
+2026-03-07 23:15:07 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:15:17 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:17] "GET /music HTTP/1.1" 200 -
+2026-03-07 23:15:18 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:15:18 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:18] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-07 23:15:19 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:19] "GET /dashboard HTTP/1.1" 200 -
+2026-03-07 23:15:20 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:15:26 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:26] "GET /dashboard HTTP/1.1" 200 -
+2026-03-07 23:15:26 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:15:30 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:30] "GET /profile HTTP/1.1" 200 -
+2026-03-07 23:15:30 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:15:41 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-07 23:15:41 - INFO -  * Restarting with stat
+2026-03-07 23:15:41 - WARNING -  * Debugger is active!
+2026-03-07 23:15:41 - INFO -  * Debugger PIN: 630-669-042
+2026-03-07 23:15:44 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-07 23:15:44 - INFO -  * Restarting with stat
+2026-03-07 23:15:44 - WARNING -  * Debugger is active!
+2026-03-07 23:15:44 - INFO -  * Debugger PIN: 630-669-042
+2026-03-07 23:15:51 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:51] "GET /profile HTTP/1.1" 200 -
+2026-03-07 23:15:52 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:15:53 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:53] "GET /profile HTTP/1.1" 200 -
+2026-03-07 23:15:53 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:15:56 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:56] "GET /profile HTTP/1.1" 200 -
+2026-03-07 23:15:56 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:15:57 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:57] "GET /profile HTTP/1.1" 200 -
+2026-03-07 23:15:57 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:15:57 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:57] "GET /profile HTTP/1.1" 200 -
+2026-03-07 23:15:58 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:15:58 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:58] "GET /profile HTTP/1.1" 200 -
+2026-03-07 23:15:59 - INFO - 127.0.0.1 - - [07/Mar/2026 23:15:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:16:02 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:02] "GET /music HTTP/1.1" 200 -
+2026-03-07 23:16:02 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:16:02 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:02] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-07 23:16:07 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:07] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-07 23:16:08 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:16:16 - INFO - User 1 answered quiz incorrectly
+2026-03-07 23:16:16 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:16] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-07 23:16:16 - INFO - User 1 earned achievement: First Step
+2026-03-07 23:16:16 - INFO - User 1 earned achievement: Speed Racer
+2026-03-07 23:16:16 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:16] "GET /dashboard HTTP/1.1" 200 -
+2026-03-07 23:16:16 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:16:24 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:24] "GET /music HTTP/1.1" 200 -
+2026-03-07 23:16:24 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:16:24 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:24] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-07 23:16:28 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:28] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-07 23:16:29 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:16:38 - INFO - User 1 answered quiz incorrectly
+2026-03-07 23:16:38 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:38] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-07 23:16:38 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:38] "GET /dashboard HTTP/1.1" 200 -
+2026-03-07 23:16:39 - INFO - 127.0.0.1 - - [07/Mar/2026 23:16:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:17:05 - INFO - 127.0.0.1 - - [07/Mar/2026 23:17:05] "GET /profile HTTP/1.1" 200 -
+2026-03-07 23:17:05 - INFO - 127.0.0.1 - - [07/Mar/2026 23:17:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:17:29 - INFO - 127.0.0.1 - - [07/Mar/2026 23:17:29] "GET /leaderboard HTTP/1.1" 200 -
+2026-03-07 23:17:29 - INFO - 127.0.0.1 - - [07/Mar/2026 23:17:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:18:02 - INFO - 127.0.0.1 - - [07/Mar/2026 23:18:02] "GET /admin HTTP/1.1" 200 -
+2026-03-07 23:18:02 - INFO - 127.0.0.1 - - [07/Mar/2026 23:18:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:18:26 - INFO - The CSRF token is missing.
+2026-03-07 23:18:26 - INFO - 127.0.0.1 - - [07/Mar/2026 23:18:26] "[31m[1mPOST /admin/delete_question/10 HTTP/1.1[0m" 400 -
+2026-03-07 23:18:29 - INFO - 127.0.0.1 - - [07/Mar/2026 23:18:29] "GET /admin HTTP/1.1" 200 -
+2026-03-07 23:18:38 - INFO - The CSRF token is missing.
+2026-03-07 23:18:38 - INFO - 127.0.0.1 - - [07/Mar/2026 23:18:38] "[31m[1mPOST /admin/delete_question/10 HTTP/1.1[0m" 400 -
+2026-03-07 23:18:45 - INFO - 127.0.0.1 - - [07/Mar/2026 23:18:45] "GET /admin HTTP/1.1" 200 -
+2026-03-07 23:19:00 - INFO - The CSRF token is missing.
+2026-03-07 23:19:00 - INFO - 127.0.0.1 - - [07/Mar/2026 23:19:00] "[31m[1mPOST /admin/delete_question/10 HTTP/1.1[0m" 400 -
+2026-03-07 23:19:22 - INFO - 127.0.0.1 - - [07/Mar/2026 23:19:22] "GET /admin HTTP/1.1" 200 -
+2026-03-07 23:19:22 - INFO - 127.0.0.1 - - [07/Mar/2026 23:19:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:20:26 - INFO - 127.0.0.1 - - [07/Mar/2026 23:20:26] "GET /admin HTTP/1.1" 200 -
+2026-03-07 23:20:27 - INFO - 127.0.0.1 - - [07/Mar/2026 23:20:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:20:27 - INFO - 127.0.0.1 - - [07/Mar/2026 23:20:27] "GET /admin HTTP/1.1" 200 -
+2026-03-07 23:20:28 - INFO - 127.0.0.1 - - [07/Mar/2026 23:20:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 23:20:33 - INFO - Admin deleted question ID: 10
+2026-03-07 23:20:33 - INFO - 127.0.0.1 - - [07/Mar/2026 23:20:33] "[32mPOST /admin/delete_question/10 HTTP/1.1[0m" 302 -
+2026-03-07 23:20:34 - INFO - 127.0.0.1 - - [07/Mar/2026 23:20:34] "GET /admin HTTP/1.1" 200 -
+2026-03-07 23:20:34 - INFO - 127.0.0.1 - - [07/Mar/2026 23:20:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 11:57:42 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2026-03-10 11:57:42 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 11:57:42 - INFO -  * Restarting with stat
+2026-03-10 11:57:42 - WARNING -  * Debugger is active!
+2026-03-10 11:57:42 - INFO -  * Debugger PIN: 630-669-042
+2026-03-10 11:59:06 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2026-03-10 11:59:06 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 11:59:06 - INFO -  * Restarting with stat
+2026-03-10 11:59:07 - WARNING -  * Debugger is active!
+2026-03-10 11:59:07 - INFO -  * Debugger PIN: 630-669-042
+2026-03-10 11:59:17 - INFO - 127.0.0.1 - - [10/Mar/2026 11:59:17] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-10 11:59:17 - INFO - 127.0.0.1 - - [10/Mar/2026 11:59:17] "GET /login HTTP/1.1" 200 -
+2026-03-10 11:59:18 - INFO - 127.0.0.1 - - [10/Mar/2026 11:59:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 11:59:18 - INFO - 127.0.0.1 - - [10/Mar/2026 11:59:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 11:59:38 - INFO - 127.0.0.1 - - [10/Mar/2026 11:59:38] "GET /register HTTP/1.1" 200 -
+2026-03-10 11:59:38 - INFO - 127.0.0.1 - - [10/Mar/2026 11:59:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:00:29 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:29] "POST /register HTTP/1.1" 200 -
+2026-03-10 12:00:29 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:00:43 - INFO - New user registered: johan@2001.com
+2026-03-10 12:00:43 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:43] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-10 12:00:43 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:43] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:00:43 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:00:47 - INFO - User logged in: johan@2001.com
+2026-03-10 12:00:47 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 12:00:48 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:48] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:00:48 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:00:48 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:48] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-10 12:00:55 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:55] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-10 12:00:55 - INFO - 127.0.0.1 - - [10/Mar/2026 12:00:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:01:04 - INFO - User 1 answered quiz incorrectly
+2026-03-10 12:01:04 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:04] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:01:04 - INFO - User 1 earned achievement: First Step
+2026-03-10 12:01:04 - INFO - User 1 earned achievement: Speed Racer
+2026-03-10 12:01:04 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:04] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:01:05 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:01:11 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:11] "GET /profile HTTP/1.1" 200 -
+2026-03-10 12:01:11 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:01:18 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:18] "GET /leaderboard HTTP/1.1" 200 -
+2026-03-10 12:01:18 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:01:25 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:25] "GET /profile HTTP/1.1" 200 -
+2026-03-10 12:01:25 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:01:26 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:26] "GET /leaderboard HTTP/1.1" 200 -
+2026-03-10 12:01:27 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:01:28 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:28] "GET /achievements HTTP/1.1" 200 -
+2026-03-10 12:01:28 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:01:44 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:44] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:01:44 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:01:44 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:44] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:01:50 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:50] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-10 12:01:50 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:01:54 - INFO - User 1 answered quiz incorrectly
+2026-03-10 12:01:54 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:54] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:01:54 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:54] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:01:54 - INFO - 127.0.0.1 - - [10/Mar/2026 12:01:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:02:03 - INFO - 127.0.0.1 - - [10/Mar/2026 12:02:03] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:02:03 - INFO - 127.0.0.1 - - [10/Mar/2026 12:02:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:02:03 - INFO - 127.0.0.1 - - [10/Mar/2026 12:02:03] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:02:06 - INFO - 127.0.0.1 - - [10/Mar/2026 12:02:06] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-10 12:02:07 - INFO - 127.0.0.1 - - [10/Mar/2026 12:02:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:02:11 - INFO - User 1 answered quiz incorrectly
+2026-03-10 12:02:11 - INFO - 127.0.0.1 - - [10/Mar/2026 12:02:11] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:02:11 - INFO - 127.0.0.1 - - [10/Mar/2026 12:02:11] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:02:11 - INFO - 127.0.0.1 - - [10/Mar/2026 12:02:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:03:44 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-10 12:03:44 - INFO -  * Restarting with stat
+2026-03-10 12:03:45 - WARNING -  * Debugger is active!
+2026-03-10 12:03:45 - INFO -  * Debugger PIN: 630-669-042
+2026-03-10 12:03:50 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-10 12:03:50 - INFO -  * Restarting with stat
+2026-03-10 12:03:51 - WARNING -  * Debugger is active!
+2026-03-10 12:03:51 - INFO -  * Debugger PIN: 630-669-042
+2026-03-10 12:03:55 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-10 12:03:55 - INFO -  * Restarting with stat
+2026-03-10 12:03:56 - WARNING -  * Debugger is active!
+2026-03-10 12:03:56 - INFO -  * Debugger PIN: 630-669-042
+2026-03-10 12:04:31 - INFO - 127.0.0.1 - - [10/Mar/2026 12:04:31] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:04:32 - INFO - 127.0.0.1 - - [10/Mar/2026 12:04:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:04:33 - INFO - 127.0.0.1 - - [10/Mar/2026 12:04:33] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:04:34 - INFO - 127.0.0.1 - - [10/Mar/2026 12:04:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:04:34 - INFO - 127.0.0.1 - - [10/Mar/2026 12:04:34] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:04:39 - INFO - 127.0.0.1 - - [10/Mar/2026 12:04:39] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-10 12:04:39 - INFO - 127.0.0.1 - - [10/Mar/2026 12:04:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:04:45 - INFO - User 1 answered quiz incorrectly
+2026-03-10 12:04:45 - INFO - 127.0.0.1 - - [10/Mar/2026 12:04:45] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:04:45 - INFO - 127.0.0.1 - - [10/Mar/2026 12:04:45] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:04:46 - INFO - 127.0.0.1 - - [10/Mar/2026 12:04:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:05:03 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2026-03-10 12:05:03 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 12:05:03 - INFO -  * Restarting with stat
+2026-03-10 12:05:03 - WARNING -  * Debugger is active!
+2026-03-10 12:05:03 - INFO -  * Debugger PIN: 630-669-042
+2026-03-10 12:05:30 - INFO - 127.0.0.1 - - [10/Mar/2026 12:05:30] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-10 12:05:30 - INFO - 127.0.0.1 - - [10/Mar/2026 12:05:30] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:05:30 - INFO - 127.0.0.1 - - [10/Mar/2026 12:05:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-10 12:05:30 - INFO - 127.0.0.1 - - [10/Mar/2026 12:05:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 12:05:45 - INFO - User logged in: johan@2001.com
+2026-03-10 12:05:45 - INFO - 127.0.0.1 - - [10/Mar/2026 12:05:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 12:05:45 - INFO - 127.0.0.1 - - [10/Mar/2026 12:05:45] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:05:45 - INFO - 127.0.0.1 - - [10/Mar/2026 12:05:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:05:45 - INFO - 127.0.0.1 - - [10/Mar/2026 12:05:45] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:05:55 - INFO - 127.0.0.1 - - [10/Mar/2026 12:05:55] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-10 12:05:55 - INFO - 127.0.0.1 - - [10/Mar/2026 12:05:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:06:01 - INFO - User 1 answered quiz incorrectly
+2026-03-10 12:06:01 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:01] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:06:01 - INFO - User 1 earned achievement: Getting Started
+2026-03-10 12:06:01 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:01] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:06:01 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:06:09 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:09] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-10 12:06:10 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:10] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:06:10 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:06:11 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 12:06:15 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:15] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:06:15 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:06:16 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:16] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:06:21 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:21] "GET /quiz?music_score=70 HTTP/1.1" 200 -
+2026-03-10 12:06:21 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:06:28 - INFO - User 1 answered quiz incorrectly
+2026-03-10 12:06:28 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:28] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:06:28 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:28] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:06:28 - INFO - 127.0.0.1 - - [10/Mar/2026 12:06:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:08:03 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2026-03-10 12:08:03 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 12:08:03 - INFO -  * Restarting with stat
+2026-03-10 12:08:04 - WARNING -  * Debugger is active!
+2026-03-10 12:08:04 - INFO -  * Debugger PIN: 630-669-042
+2026-03-10 12:08:35 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2026-03-10 12:08:35 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 12:08:35 - INFO -  * Restarting with stat
+2026-03-10 12:08:35 - WARNING -  * Debugger is active!
+2026-03-10 12:08:35 - INFO -  * Debugger PIN: 630-669-042
+2026-03-10 12:09:01 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:01] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-10 12:09:01 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:01] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:09:02 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:02 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 12:09:04 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:04] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:09:04 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:04 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:04] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:09:10 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:10] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-10 12:09:10 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:14 - ERROR - Quiz submission error for user 1: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`rhythmquest`.`performance`, CONSTRAINT `performance_ibfk_1` FOREIGN KEY (`Student_ID`) REFERENCES `student` (`ID`) ON DELETE CASCADE)')
+2026-03-10 12:09:14 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:14] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:09:14 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:14] "[32mGET /quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:09:14 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:14] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:09:14 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:14 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:14] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:09:21 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:21] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-10 12:09:21 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:25 - ERROR - Quiz submission error for user 1: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`rhythmquest`.`performance`, CONSTRAINT `performance_ibfk_1` FOREIGN KEY (`Student_ID`) REFERENCES `student` (`ID`) ON DELETE CASCADE)')
+2026-03-10 12:09:25 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:25] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:09:25 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:25] "[32mGET /quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:09:25 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:25] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:09:26 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:26 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:26] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:09:34 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:34] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-10 12:09:34 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:34] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:09:34 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:37 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-03-10 12:09:38 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:38] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:09:38 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:40 - WARNING - Failed login attempt for email: johan@2001.com
+2026-03-10 12:09:40 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 12:09:41 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:41] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:09:41 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:42 - WARNING - Failed login attempt for email: johan@2001.com
+2026-03-10 12:09:42 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 12:09:43 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:43] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:09:43 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:53 - WARNING - Failed login attempt for email: johan@2001.com
+2026-03-10 12:09:53 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 12:09:53 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:53] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:09:53 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:09:55 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:55] "GET /register HTTP/1.1" 200 -
+2026-03-10 12:09:55 - INFO - 127.0.0.1 - - [10/Mar/2026 12:09:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:10:12 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:12] "POST /register HTTP/1.1" 200 -
+2026-03-10 12:10:12 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:10:24 - INFO - New user registered: johan@2001.com
+2026-03-10 12:10:24 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:24] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-10 12:10:24 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:24] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:10:24 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:10:27 - INFO - User logged in: johan@2001.com
+2026-03-10 12:10:27 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 12:10:27 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:27] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:10:27 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:10:27 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:27] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:10:34 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:34] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-10 12:10:34 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:10:39 - INFO - User 1 answered quiz incorrectly
+2026-03-10 12:10:39 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:39] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:10:39 - INFO - User 1 earned achievement: First Step
+2026-03-10 12:10:39 - INFO - User 1 earned achievement: Speed Racer
+2026-03-10 12:10:39 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:39] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:10:39 - INFO - 127.0.0.1 - - [10/Mar/2026 12:10:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:12:27 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2026-03-10 12:12:27 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 12:12:27 - INFO -  * Restarting with stat
+2026-03-10 12:12:27 - WARNING -  * Debugger is active!
+2026-03-10 12:12:27 - INFO -  * Debugger PIN: 630-669-042
+2026-03-10 12:12:29 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:29] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-10 12:12:30 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:30] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:12:31 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:12:31 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 12:12:35 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:35] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:12:35 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:12:35 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:35] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:12:36 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-03-10 12:12:36 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:36] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:12:36 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:12:40 - WARNING - Failed login attempt for email: johan@2001.com
+2026-03-10 12:12:40 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 12:12:40 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:40] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:12:41 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:12:49 - WARNING - Failed login attempt for email: johan@2001.com
+2026-03-10 12:12:49 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 12:12:50 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:50] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:12:50 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:12:53 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:53] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:12:53 - INFO - 127.0.0.1 - - [10/Mar/2026 12:12:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:13:11 - WARNING - Failed login attempt for email: johan@2001.com
+2026-03-10 12:13:11 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 12:13:11 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:11] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:13:11 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:13:17 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:17] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-10 12:13:17 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:17] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:13:18 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:13:18 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 12:13:28 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2026-03-10 12:13:28 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 12:13:28 - INFO -  * Restarting with stat
+2026-03-10 12:13:29 - WARNING -  * Debugger is active!
+2026-03-10 12:13:29 - INFO -  * Debugger PIN: 630-669-042
+2026-03-10 12:13:35 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:35] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-10 12:13:36 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:36] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:13:36 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:13:36 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 12:13:40 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:40] "GET /register HTTP/1.1" 200 -
+2026-03-10 12:13:40 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:13:57 - INFO - New user registered: johan@2001.com
+2026-03-10 12:13:57 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:57] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-10 12:13:57 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:57] "GET /login HTTP/1.1" 200 -
+2026-03-10 12:13:57 - INFO - 127.0.0.1 - - [10/Mar/2026 12:13:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:14:01 - INFO - User logged in: johan@2001.com
+2026-03-10 12:14:01 - INFO - 127.0.0.1 - - [10/Mar/2026 12:14:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 12:14:01 - INFO - 127.0.0.1 - - [10/Mar/2026 12:14:01] "GET /music HTTP/1.1" 200 -
+2026-03-10 12:14:01 - INFO - 127.0.0.1 - - [10/Mar/2026 12:14:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:14:01 - INFO - 127.0.0.1 - - [10/Mar/2026 12:14:01] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-10 12:14:09 - INFO - 127.0.0.1 - - [10/Mar/2026 12:14:09] "GET /quiz?music_score=70 HTTP/1.1" 200 -
+2026-03-10 12:14:09 - INFO - 127.0.0.1 - - [10/Mar/2026 12:14:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:14:19 - INFO - User 1 answered quiz incorrectly
+2026-03-10 12:14:19 - INFO - 127.0.0.1 - - [10/Mar/2026 12:14:19] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-10 12:14:20 - INFO - User 1 earned achievement: First Step
+2026-03-10 12:14:20 - INFO - 127.0.0.1 - - [10/Mar/2026 12:14:20] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 12:14:20 - INFO - 127.0.0.1 - - [10/Mar/2026 12:14:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-10 12:14:47 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-10 12:14:47 - INFO -  * Restarting with stat
+2026-03-10 12:14:48 - WARNING -  * Debugger is active!
+2026-03-10 12:14:48 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:29:41 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2026-03-11 12:29:41 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 12:29:41 - INFO -  * Restarting with stat
+2026-03-11 12:29:41 - WARNING -  * Debugger is active!
+2026-03-11 12:29:41 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:29:41 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2026-03-11 12:29:41 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 12:29:41 - INFO -  * Restarting with stat
+2026-03-11 12:29:42 - WARNING -  * Debugger is active!
+2026-03-11 12:29:42 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:29:55 - INFO - 127.0.0.1 - - [11/Mar/2026 12:29:55] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 12:29:55 - INFO - 127.0.0.1 - - [11/Mar/2026 12:29:55] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:29:55 - INFO - 127.0.0.1 - - [11/Mar/2026 12:29:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:29:55 - INFO - 127.0.0.1 - - [11/Mar/2026 12:29:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 12:30:07 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:07] "GET /register HTTP/1.1" 200 -
+2026-03-11 12:30:07 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:30:31 - INFO - New user registered: seansefika24092005@gmail.com
+2026-03-11 12:30:31 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:31] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-11 12:30:31 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:31] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:30:32 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:30:38 - INFO - User logged in: johan@2001.com
+2026-03-11 12:30:38 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-11 12:30:39 - INFO - User 1 earned achievement: Climber
+2026-03-11 12:30:39 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:39] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:30:39 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:30:39 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:39] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 12:30:45 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:45] "[32mGET /quiz?music_score=40 HTTP/1.1[0m" 302 -
+2026-03-11 12:30:45 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:45] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:30:46 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:30:46 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:46] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-11 12:30:51 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:51] "[32mGET /quiz?music_score=55 HTTP/1.1[0m" 302 -
+2026-03-11 12:30:51 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:51] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:30:52 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:30:52 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:52] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-11 12:30:56 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:56] "[32mGET /quiz?music_score=50 HTTP/1.1[0m" 302 -
+2026-03-11 12:30:57 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:57] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:30:57 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:30:57 - INFO - 127.0.0.1 - - [11/Mar/2026 12:30:57] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-11 12:31:03 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:03] "GET /quiz?music_score=75 HTTP/1.1" 200 -
+2026-03-11 12:31:03 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:31:06 - INFO - User 1 answered quiz incorrectly
+2026-03-11 12:31:06 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:06] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 12:31:07 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:07] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:31:07 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:31:17 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:17] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 12:31:17 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:17] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:31:18 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:31:18 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:18] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-11 12:31:24 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:24] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-11 12:31:25 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:31:34 - INFO - User 1 answered quiz correctly
+2026-03-11 12:31:34 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:34] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 12:31:34 - INFO - User 1 earned achievement: Perfect Score
+2026-03-11 12:31:34 - INFO - User 1 earned achievement: Speed Racer
+2026-03-11 12:31:34 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:34] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:31:34 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:31:50 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:50] "GET /leaderboard HTTP/1.1" 200 -
+2026-03-11 12:31:50 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:31:58 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:58] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:31:58 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:31:58 - INFO - 127.0.0.1 - - [11/Mar/2026 12:31:58] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-11 12:32:23 - INFO - 127.0.0.1 - - [11/Mar/2026 12:32:23] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 12:32:23 - INFO - 127.0.0.1 - - [11/Mar/2026 12:32:23] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:32:23 - INFO - 127.0.0.1 - - [11/Mar/2026 12:32:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:32:35 - INFO - 127.0.0.1 - - [11/Mar/2026 12:32:35] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 12:32:36 - INFO - 127.0.0.1 - - [11/Mar/2026 12:32:36] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:32:36 - INFO - 127.0.0.1 - - [11/Mar/2026 12:32:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:32:36 - INFO - 127.0.0.1 - - [11/Mar/2026 12:32:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 12:33:28 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-11 12:33:28 - INFO -  * Restarting with stat
+2026-03-11 12:33:29 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-11 12:33:29 - INFO -  * Restarting with stat
+2026-03-11 12:33:29 - WARNING -  * Debugger is active!
+2026-03-11 12:33:30 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:33:30 - WARNING -  * Debugger is active!
+2026-03-11 12:33:30 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:33:31 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-11 12:33:31 - INFO -  * Restarting with stat
+2026-03-11 12:33:31 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-11 12:33:31 - INFO -  * Restarting with stat
+2026-03-11 12:33:32 - WARNING -  * Debugger is active!
+2026-03-11 12:33:32 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:33:32 - WARNING -  * Debugger is active!
+2026-03-11 12:33:32 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:33:43 - INFO - 127.0.0.1 - - [11/Mar/2026 12:33:43] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 12:33:43 - INFO - 127.0.0.1 - - [11/Mar/2026 12:33:43] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:33:44 - INFO - 127.0.0.1 - - [11/Mar/2026 12:33:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 12:33:46 - INFO - 127.0.0.1 - - [11/Mar/2026 12:33:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-03-11 12:33:46 - INFO - 127.0.0.1 - - [11/Mar/2026 12:33:46] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:33:47 - INFO - 127.0.0.1 - - [11/Mar/2026 12:33:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:34:03 - INFO - 127.0.0.1 - - [11/Mar/2026 12:34:03] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 12:34:03 - INFO - 127.0.0.1 - - [11/Mar/2026 12:34:03] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:34:15 - INFO - 127.0.0.1 - - [11/Mar/2026 12:34:15] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 12:34:15 - INFO - 127.0.0.1 - - [11/Mar/2026 12:34:15] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:34:15 - INFO - 127.0.0.1 - - [11/Mar/2026 12:34:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:34:16 - INFO - 127.0.0.1 - - [11/Mar/2026 12:34:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 12:36:25 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2026-03-11 12:36:25 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 12:36:25 - INFO -  * Restarting with stat
+2026-03-11 12:36:25 - WARNING -  * Debugger is active!
+2026-03-11 12:36:25 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:36:37 - INFO - 127.0.0.1 - - [11/Mar/2026 12:36:37] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 12:36:37 - INFO - 127.0.0.1 - - [11/Mar/2026 12:36:37] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:36:38 - INFO - 127.0.0.1 - - [11/Mar/2026 12:36:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:36:38 - INFO - 127.0.0.1 - - [11/Mar/2026 12:36:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 12:36:43 - INFO - 127.0.0.1 - - [11/Mar/2026 12:36:43] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:36:43 - INFO - 127.0.0.1 - - [11/Mar/2026 12:36:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:36:44 - INFO - 127.0.0.1 - - [11/Mar/2026 12:36:44] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:36:44 - INFO - 127.0.0.1 - - [11/Mar/2026 12:36:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:36:44 - INFO - 127.0.0.1 - - [11/Mar/2026 12:36:44] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:36:44 - INFO - 127.0.0.1 - - [11/Mar/2026 12:36:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:37:29 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-11 12:37:29 - INFO -  * Restarting with stat
+2026-03-11 12:37:29 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-11 12:37:29 - INFO -  * Restarting with stat
+2026-03-11 12:37:30 - WARNING -  * Debugger is active!
+2026-03-11 12:37:30 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:37:30 - WARNING -  * Debugger is active!
+2026-03-11 12:37:30 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:37:31 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-11 12:37:31 - INFO -  * Restarting with stat
+2026-03-11 12:37:31 - INFO -  * Detected change in 'C:\\Users\\welcome\\OneDrive\\Documents\\Projects\\Final year project\\RhythmQuest\\app.py', reloading
+2026-03-11 12:37:31 - INFO -  * Restarting with stat
+2026-03-11 12:37:32 - WARNING -  * Debugger is active!
+2026-03-11 12:37:32 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:37:32 - WARNING -  * Debugger is active!
+2026-03-11 12:37:32 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:38:35 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2026-03-11 12:38:35 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 12:38:35 - INFO -  * Restarting with stat
+2026-03-11 12:38:35 - WARNING -  * Debugger is active!
+2026-03-11 12:38:35 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 12:38:50 - INFO - 127.0.0.1 - - [11/Mar/2026 12:38:50] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 12:38:50 - INFO - 127.0.0.1 - - [11/Mar/2026 12:38:50] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:38:51 - INFO - 127.0.0.1 - - [11/Mar/2026 12:38:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:38:51 - INFO - 127.0.0.1 - - [11/Mar/2026 12:38:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 12:38:56 - INFO - 127.0.0.1 - - [11/Mar/2026 12:38:56] "GET /register HTTP/1.1" 200 -
+2026-03-11 12:38:56 - INFO - 127.0.0.1 - - [11/Mar/2026 12:38:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:39:20 - INFO - New user registered: sefika@2409.com
+2026-03-11 12:39:20 - INFO - 127.0.0.1 - - [11/Mar/2026 12:39:20] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-11 12:39:20 - INFO - 127.0.0.1 - - [11/Mar/2026 12:39:20] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:39:20 - INFO - 127.0.0.1 - - [11/Mar/2026 12:39:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:39:37 - WARNING - Failed login attempt for email: sefika@24.com
+2026-03-11 12:39:37 - INFO - 127.0.0.1 - - [11/Mar/2026 12:39:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-11 12:39:38 - INFO - 127.0.0.1 - - [11/Mar/2026 12:39:38] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:39:38 - INFO - 127.0.0.1 - - [11/Mar/2026 12:39:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:39:54 - WARNING - Failed login attempt for email: sefika@24.com
+2026-03-11 12:39:54 - INFO - 127.0.0.1 - - [11/Mar/2026 12:39:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-11 12:39:54 - INFO - 127.0.0.1 - - [11/Mar/2026 12:39:54] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:39:54 - INFO - 127.0.0.1 - - [11/Mar/2026 12:39:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:40:02 - INFO - 127.0.0.1 - - [11/Mar/2026 12:40:02] "GET /register HTTP/1.1" 200 -
+2026-03-11 12:40:02 - INFO - 127.0.0.1 - - [11/Mar/2026 12:40:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:40:30 - INFO - 127.0.0.1 - - [11/Mar/2026 12:40:30] "POST /register HTTP/1.1" 200 -
+2026-03-11 12:40:30 - INFO - 127.0.0.1 - - [11/Mar/2026 12:40:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:41:13 - INFO - 127.0.0.1 - - [11/Mar/2026 12:41:13] "POST /register HTTP/1.1" 200 -
+2026-03-11 12:41:13 - INFO - 127.0.0.1 - - [11/Mar/2026 12:41:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:41:41 - INFO - New user registered: sefi@gmail.com
+2026-03-11 12:41:41 - INFO - 127.0.0.1 - - [11/Mar/2026 12:41:41] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-11 12:41:41 - INFO - 127.0.0.1 - - [11/Mar/2026 12:41:41] "GET /login HTTP/1.1" 200 -
+2026-03-11 12:41:41 - INFO - 127.0.0.1 - - [11/Mar/2026 12:41:41] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:41:54 - INFO - User logged in: sefi@gmail.com
+2026-03-11 12:41:54 - INFO - 127.0.0.1 - - [11/Mar/2026 12:41:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-11 12:41:54 - INFO - 127.0.0.1 - - [11/Mar/2026 12:41:54] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:41:54 - INFO - 127.0.0.1 - - [11/Mar/2026 12:41:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:41:54 - INFO - 127.0.0.1 - - [11/Mar/2026 12:41:54] "[36mGET /static/js/music.js HTTP/1.1[0m" 304 -
+2026-03-11 12:42:04 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:04] "GET /quiz?music_score=95 HTTP/1.1" 200 -
+2026-03-11 12:42:04 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:42:08 - INFO - User 4 answered quiz correctly
+2026-03-11 12:42:08 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:08] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 12:42:09 - INFO - User 4 earned achievement: First Step
+2026-03-11 12:42:09 - INFO - User 4 earned achievement: Perfect Score
+2026-03-11 12:42:09 - INFO - User 4 earned achievement: Consistent
+2026-03-11 12:42:09 - INFO - User 4 earned achievement: Legend
+2026-03-11 12:42:09 - INFO - User 4 earned achievement: Climber
+2026-03-11 12:42:09 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:09] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:42:09 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:42:20 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:20] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:42:20 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:42:20 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:20] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 12:42:26 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:26] "GET /quiz?music_score=75 HTTP/1.1" 200 -
+2026-03-11 12:42:27 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:27] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:42:33 - INFO - User 4 answered quiz incorrectly
+2026-03-11 12:42:33 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:33] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 12:42:33 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:33] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:42:33 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:42:38 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:38] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:42:38 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:42:38 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:38] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 12:42:44 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:44] "GET /quiz?music_score=100 HTTP/1.1" 200 -
+2026-03-11 12:42:44 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:42:52 - INFO - User 4 answered quiz incorrectly
+2026-03-11 12:42:52 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:52] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 12:42:53 - INFO - User 4 earned achievement: Speed Racer
+2026-03-11 12:42:53 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:53] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:42:53 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:42:59 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:59] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:42:59 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:42:59 - INFO - 127.0.0.1 - - [11/Mar/2026 12:42:59] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 12:43:05 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:05] "GET /quiz?music_score=75 HTTP/1.1" 200 -
+2026-03-11 12:43:05 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:43:13 - INFO - User 4 answered quiz correctly
+2026-03-11 12:43:13 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:13] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 12:43:13 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:13] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:43:14 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:43:19 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:19] "GET /leaderboard HTTP/1.1" 200 -
+2026-03-11 12:43:19 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:43:31 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:31] "GET /achievements HTTP/1.1" 200 -
+2026-03-11 12:43:31 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:43:43 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:43] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:43:44 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:43:44 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:44] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 12:43:49 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:49] "GET /quiz?music_score=75 HTTP/1.1" 200 -
+2026-03-11 12:43:49 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:43:53 - INFO - User 4 answered quiz correctly
+2026-03-11 12:43:53 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:53] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 12:43:53 - INFO - User 4 earned achievement: Getting Started
+2026-03-11 12:43:53 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:53] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:43:53 - INFO - 127.0.0.1 - - [11/Mar/2026 12:43:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:44:00 - INFO - 127.0.0.1 - - [11/Mar/2026 12:44:00] "GET /achievements HTTP/1.1" 200 -
+2026-03-11 12:44:00 - INFO - 127.0.0.1 - - [11/Mar/2026 12:44:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:44:03 - INFO - 127.0.0.1 - - [11/Mar/2026 12:44:03] "GET /music HTTP/1.1" 200 -
+2026-03-11 12:44:03 - INFO - 127.0.0.1 - - [11/Mar/2026 12:44:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:44:03 - INFO - 127.0.0.1 - - [11/Mar/2026 12:44:03] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 12:44:08 - INFO - 127.0.0.1 - - [11/Mar/2026 12:44:08] "GET /quiz?music_score=75 HTTP/1.1" 200 -
+2026-03-11 12:44:08 - INFO - 127.0.0.1 - - [11/Mar/2026 12:44:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 12:44:15 - INFO - User 4 answered quiz correctly
+2026-03-11 12:44:15 - INFO - 127.0.0.1 - - [11/Mar/2026 12:44:15] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 12:44:15 - INFO - 127.0.0.1 - - [11/Mar/2026 12:44:15] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 12:44:15 - INFO - 127.0.0.1 - - [11/Mar/2026 12:44:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 13:49:22 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2026-03-11 13:49:22 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 13:49:22 - INFO -  * Restarting with stat
+2026-03-11 13:49:22 - WARNING -  * Debugger is active!
+2026-03-11 13:49:22 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 13:49:34 - INFO - 127.0.0.1 - - [11/Mar/2026 13:49:34] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 13:49:35 - INFO - 127.0.0.1 - - [11/Mar/2026 13:49:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 13:50:22 - INFO - 127.0.0.1 - - [11/Mar/2026 13:50:22] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 13:50:22 - INFO - 127.0.0.1 - - [11/Mar/2026 13:50:22] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 13:50:22 - INFO - 127.0.0.1 - - [11/Mar/2026 13:50:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 13:50:53 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2026-03-11 13:50:53 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 13:50:53 - INFO -  * Restarting with stat
+2026-03-11 13:50:53 - WARNING -  * Debugger is active!
+2026-03-11 13:50:53 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 13:51:02 - INFO - 127.0.0.1 - - [11/Mar/2026 13:51:02] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 13:51:02 - INFO - 127.0.0.1 - - [11/Mar/2026 13:51:02] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 13:51:03 - INFO - 127.0.0.1 - - [11/Mar/2026 13:51:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 13:51:05 - INFO - 127.0.0.1 - - [11/Mar/2026 13:51:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-03-11 13:51:05 - INFO - 127.0.0.1 - - [11/Mar/2026 13:51:05] "GET /login HTTP/1.1" 200 -
+2026-03-11 13:51:05 - INFO - 127.0.0.1 - - [11/Mar/2026 13:51:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 13:55:15 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2026-03-11 13:55:15 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 13:55:15 - INFO -  * Restarting with stat
+2026-03-11 13:55:16 - WARNING -  * Debugger is active!
+2026-03-11 13:55:16 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 14:33:54 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2026-03-11 14:33:54 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 14:33:54 - INFO -  * Restarting with stat
+2026-03-11 14:33:54 - WARNING -  * Debugger is active!
+2026-03-11 14:33:54 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 14:34:22 - INFO - 127.0.0.1 - - [11/Mar/2026 14:34:22] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 14:34:22 - INFO - 127.0.0.1 - - [11/Mar/2026 14:34:22] "GET /login HTTP/1.1" 200 -
+2026-03-11 14:34:22 - INFO - 127.0.0.1 - - [11/Mar/2026 14:34:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:34:23 - INFO - 127.0.0.1 - - [11/Mar/2026 14:34:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 14:35:29 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2026-03-11 14:35:29 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 14:35:29 - INFO -  * Restarting with stat
+2026-03-11 14:35:29 - WARNING -  * Debugger is active!
+2026-03-11 14:35:29 - INFO -  * Debugger PIN: 630-669-042
+2026-03-11 14:36:12 - INFO - 127.0.0.1 - - [11/Mar/2026 14:36:12] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 14:36:12 - INFO - 127.0.0.1 - - [11/Mar/2026 14:36:12] "GET /login HTTP/1.1" 200 -
+2026-03-11 14:36:12 - INFO - 127.0.0.1 - - [11/Mar/2026 14:36:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:36:13 - INFO - 127.0.0.1 - - [11/Mar/2026 14:36:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 14:37:57 - INFO - 127.0.0.1 - - [11/Mar/2026 14:37:57] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 14:37:57 - INFO - 127.0.0.1 - - [11/Mar/2026 14:37:57] "GET /login HTTP/1.1" 200 -
+2026-03-11 14:37:57 - INFO - 127.0.0.1 - - [11/Mar/2026 14:37:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:37:58 - INFO - 127.0.0.1 - - [11/Mar/2026 14:37:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 14:38:06 - INFO - 127.0.0.1 - - [11/Mar/2026 14:38:06] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 14:38:06 - INFO - 127.0.0.1 - - [11/Mar/2026 14:38:06] "GET /login HTTP/1.1" 200 -
+2026-03-11 14:41:46 - INFO - 127.0.0.1 - - [11/Mar/2026 14:41:46] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 14:41:46 - INFO - 127.0.0.1 - - [11/Mar/2026 14:41:46] "GET /login HTTP/1.1" 200 -
+2026-03-11 14:41:46 - INFO - 127.0.0.1 - - [11/Mar/2026 14:41:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:41:46 - INFO - 127.0.0.1 - - [11/Mar/2026 14:41:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 14:42:19 - WARNING - Failed login attempt for email: joesanjay001@gmail.com
+2026-03-11 14:42:19 - INFO - 127.0.0.1 - - [11/Mar/2026 14:42:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-11 14:42:19 - INFO - 127.0.0.1 - - [11/Mar/2026 14:42:19] "GET /login HTTP/1.1" 200 -
+2026-03-11 14:42:20 - INFO - 127.0.0.1 - - [11/Mar/2026 14:42:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:42:24 - INFO - 127.0.0.1 - - [11/Mar/2026 14:42:24] "GET /register HTTP/1.1" 200 -
+2026-03-11 14:42:24 - INFO - 127.0.0.1 - - [11/Mar/2026 14:42:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:42:52 - INFO - New user registered: joesanjay001@gmail.com
+2026-03-11 14:42:52 - INFO - 127.0.0.1 - - [11/Mar/2026 14:42:52] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-11 14:42:52 - INFO - 127.0.0.1 - - [11/Mar/2026 14:42:52] "GET /login HTTP/1.1" 200 -
+2026-03-11 14:42:52 - INFO - 127.0.0.1 - - [11/Mar/2026 14:42:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:43:10 - INFO - User logged in: joesanjay001@gmail.com
+2026-03-11 14:43:10 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-11 14:43:10 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:10] "GET /music HTTP/1.1" 200 -
+2026-03-11 14:43:10 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:43:10 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:10] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 14:43:28 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:28] "[32mGET /quiz?music_score=25 HTTP/1.1[0m" 302 -
+2026-03-11 14:43:29 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:29] "GET /music HTTP/1.1" 200 -
+2026-03-11 14:43:29 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:29] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 14:43:29 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:43:32 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:32] "GET /music HTTP/1.1" 200 -
+2026-03-11 14:43:32 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:32] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 14:43:32 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:43:54 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:54] "GET /achievements HTTP/1.1" 200 -
+2026-03-11 14:43:55 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:43:58 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:58] "GET /leaderboard HTTP/1.1" 200 -
+2026-03-11 14:43:58 - INFO - 127.0.0.1 - - [11/Mar/2026 14:43:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:44:01 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:01] "GET /profile HTTP/1.1" 200 -
+2026-03-11 14:44:01 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:44:02 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:02] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 14:44:02 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:02] "GET /login HTTP/1.1" 200 -
+2026-03-11 14:44:02 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:44:09 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:09] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 14:44:11 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:44:19 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:19] "GET /register HTTP/1.1" 200 -
+2026-03-11 14:44:19 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:44:49 - INFO - New user registered: sean@gmail.com
+2026-03-11 14:44:49 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:49] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-11 14:44:49 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:49] "GET /login HTTP/1.1" 200 -
+2026-03-11 14:44:49 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:44:53 - INFO - User logged in: sean@gmail.com
+2026-03-11 14:44:53 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-11 14:44:53 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:53] "GET /music HTTP/1.1" 200 -
+2026-03-11 14:44:53 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:44:53 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:53] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 14:44:59 - INFO - 127.0.0.1 - - [11/Mar/2026 14:44:59] "GET /quiz?music_score=75 HTTP/1.1" 200 -
+2026-03-11 14:45:00 - INFO - 127.0.0.1 - - [11/Mar/2026 14:45:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:45:10 - INFO - User 6 answered quiz correctly
+2026-03-11 14:45:10 - INFO - 127.0.0.1 - - [11/Mar/2026 14:45:10] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 14:45:10 - INFO - User 6 earned achievement: First Step
+2026-03-11 14:45:10 - INFO - User 6 earned achievement: Perfect Score
+2026-03-11 14:45:10 - INFO - User 6 earned achievement: Consistent
+2026-03-11 14:45:10 - INFO - User 6 earned achievement: Legend
+2026-03-11 14:45:10 - INFO - User 6 earned achievement: Climber
+2026-03-11 14:45:10 - INFO - 127.0.0.1 - - [11/Mar/2026 14:45:10] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 14:45:10 - INFO - 127.0.0.1 - - [11/Mar/2026 14:45:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:45:30 - INFO - 127.0.0.1 - - [11/Mar/2026 14:45:30] "GET /music HTTP/1.1" 200 -
+2026-03-11 14:45:31 - INFO - 127.0.0.1 - - [11/Mar/2026 14:45:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:45:31 - INFO - 127.0.0.1 - - [11/Mar/2026 14:45:31] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 14:45:33 - INFO - 127.0.0.1 - - [11/Mar/2026 14:45:33] "GET /leaderboard HTTP/1.1" 200 -
+2026-03-11 14:45:33 - INFO - 127.0.0.1 - - [11/Mar/2026 14:45:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:48:09 - INFO - 127.0.0.1 - - [11/Mar/2026 14:48:09] "GET /profile HTTP/1.1" 200 -
+2026-03-11 14:48:09 - INFO - 127.0.0.1 - - [11/Mar/2026 14:48:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:48:16 - INFO - 127.0.0.1 - - [11/Mar/2026 14:48:16] "GET /music HTTP/1.1" 200 -
+2026-03-11 14:48:16 - INFO - 127.0.0.1 - - [11/Mar/2026 14:48:16] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 14:48:16 - INFO - 127.0.0.1 - - [11/Mar/2026 14:48:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:48:18 - INFO - 127.0.0.1 - - [11/Mar/2026 14:48:18] "GET /achievements HTTP/1.1" 200 -
+2026-03-11 14:48:18 - INFO - 127.0.0.1 - - [11/Mar/2026 14:48:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 14:50:23 - INFO - 127.0.0.1 - - [11/Mar/2026 14:50:23] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 14:50:23 - INFO - 127.0.0.1 - - [11/Mar/2026 14:50:23] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 14:50:23 - INFO - 127.0.0.1 - - [11/Mar/2026 14:50:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:05:53 - INFO - 127.0.0.1 - - [11/Mar/2026 15:05:53] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 15:05:53 - INFO - 127.0.0.1 - - [11/Mar/2026 15:05:53] "GET /login HTTP/1.1" 200 -
+2026-03-11 15:05:53 - INFO - 127.0.0.1 - - [11/Mar/2026 15:05:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:05:53 - INFO - 127.0.0.1 - - [11/Mar/2026 15:05:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 15:05:58 - INFO - 127.0.0.1 - - [11/Mar/2026 15:05:58] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-11 15:05:58 - INFO - 127.0.0.1 - - [11/Mar/2026 15:05:58] "GET /login HTTP/1.1" 200 -
+2026-03-11 15:05:58 - INFO - 127.0.0.1 - - [11/Mar/2026 15:05:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:06:08 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:08] "GET /register HTTP/1.1" 200 -
+2026-03-11 15:06:08 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:06:28 - WARNING - Registration attempt with existing email: seansefika24092005@gmail.com
+2026-03-11 15:06:28 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:28] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-11 15:06:28 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:28] "GET /register HTTP/1.1" 200 -
+2026-03-11 15:06:28 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:06:34 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:34] "GET /login HTTP/1.1" 200 -
+2026-03-11 15:06:34 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:06:37 - WARNING - Failed login attempt for email: seansefika24092005@gmail.com
+2026-03-11 15:06:37 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-11 15:06:37 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:37] "GET /login HTTP/1.1" 200 -
+2026-03-11 15:06:37 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:06:39 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:39] "GET /register HTTP/1.1" 200 -
+2026-03-11 15:06:39 - INFO - 127.0.0.1 - - [11/Mar/2026 15:06:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:07:06 - WARNING - Registration attempt with existing email: seansefika24092005@gmail.com
+2026-03-11 15:07:06 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:06] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-11 15:07:06 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:06] "GET /register HTTP/1.1" 200 -
+2026-03-11 15:07:06 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:07:11 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:11] "GET /login HTTP/1.1" 200 -
+2026-03-11 15:07:12 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:07:14 - WARNING - Failed login attempt for email: seansefika24092005@gmail.com
+2026-03-11 15:07:14 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-11 15:07:14 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:14] "GET /login HTTP/1.1" 200 -
+2026-03-11 15:07:15 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:07:19 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:19] "GET /register HTTP/1.1" 200 -
+2026-03-11 15:07:20 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:07:55 - INFO - New user registered: sefii24@gmail.com
+2026-03-11 15:07:55 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:55] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-11 15:07:56 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:56] "GET /login HTTP/1.1" 200 -
+2026-03-11 15:07:56 - INFO - 127.0.0.1 - - [11/Mar/2026 15:07:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:08:00 - INFO - User logged in: sefii24@gmail.com
+2026-03-11 15:08:00 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-11 15:08:00 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:00] "GET /music HTTP/1.1" 200 -
+2026-03-11 15:08:01 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:01] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 15:08:01 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:08:08 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:08] "[32mGET /quiz?music_score=50 HTTP/1.1[0m" 302 -
+2026-03-11 15:08:08 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:08] "GET /music HTTP/1.1" 200 -
+2026-03-11 15:08:09 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:09] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 15:08:09 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:08:14 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:14] "GET /quiz?music_score=75 HTTP/1.1" 200 -
+2026-03-11 15:08:14 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:08:23 - INFO - User 7 answered quiz correctly
+2026-03-11 15:08:23 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:23] "[32mPOST /submit_quiz HTTP/1.1[0m" 302 -
+2026-03-11 15:08:23 - INFO - User 7 earned achievement: First Step
+2026-03-11 15:08:23 - INFO - User 7 earned achievement: Perfect Score
+2026-03-11 15:08:23 - INFO - User 7 earned achievement: Consistent
+2026-03-11 15:08:23 - INFO - User 7 earned achievement: Legend
+2026-03-11 15:08:23 - INFO - User 7 earned achievement: Climber
+2026-03-11 15:08:23 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:23] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 15:08:24 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:08:32 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:32] "GET /leaderboard HTTP/1.1" 200 -
+2026-03-11 15:08:32 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:08:44 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:44] "GET /achievements HTTP/1.1" 200 -
+2026-03-11 15:08:44 - INFO - 127.0.0.1 - - [11/Mar/2026 15:08:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:09:01 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:01] "GET /music HTTP/1.1" 200 -
+2026-03-11 15:09:01 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:09:01 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:01] "GET /static/js/music.js HTTP/1.1" 200 -
+2026-03-11 15:09:03 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:03] "GET /dashboard HTTP/1.1" 200 -
+2026-03-11 15:09:03 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:09:04 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:04] "GET /profile HTTP/1.1" 200 -
+2026-03-11 15:09:05 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:09:05 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:05] "GET /leaderboard HTTP/1.1" 200 -
+2026-03-11 15:09:06 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:09:06 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:06] "GET /achievements HTTP/1.1" 200 -
+2026-03-11 15:09:07 - INFO - 127.0.0.1 - - [11/Mar/2026 15:09:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:29:45 - INFO - 127.0.0.1 - - [11/Mar/2026 15:29:45] "GET /achievements HTTP/1.1" 200 -
+2026-03-11 15:29:45 - INFO - 127.0.0.1 - - [11/Mar/2026 15:29:45] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 15:29:45 - INFO - 127.0.0.1 - - [11/Mar/2026 15:29:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

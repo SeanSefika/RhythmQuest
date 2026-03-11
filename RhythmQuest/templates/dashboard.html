@@ -1,0 +1,117 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="text-center mb-4">
+    <h2>📊 Performance Dashboard</h2>
+    <p class="text-muted">Monitor your music and academic performance over time</p>
+</div>
+
+<canvas id="myChart" width="800" height="400"></canvas>
+
+<input type="hidden" id="attemptData" value='{{ attempts | tojson }}'>
+<input type="hidden" id="musicData" value='{{ music_scores | tojson }}'>
+<input type="hidden" id="academicData" value='{{ academic_scores | tojson }}'>
+
+<script>
+var attempts = JSON.parse(document.getElementById("attemptData").value);
+var musicScores = JSON.parse(document.getElementById("musicData").value);
+var academicScores = JSON.parse(document.getElementById("academicData").value);
+
+var ctx = document.getElementById('myChart').getContext('2d');
+
+/* Gradient for Music Line */
+var musicGradient = ctx.createLinearGradient(0, 0, 0, 400);
+musicGradient.addColorStop(0, "rgba(0, 255, 255, 0.6)");
+musicGradient.addColorStop(1, "rgba(0, 255, 255, 0.05)");
+
+/* Gradient for Academic Line */
+var academicGradient = ctx.createLinearGradient(0, 0, 0, 400);
+academicGradient.addColorStop(0, "rgba(111, 66, 193, 0.6)");
+academicGradient.addColorStop(1, "rgba(111, 66, 193, 0.05)");
+
+new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: attempts,
+        datasets: [
+            {
+                label: '🎵 Music Score',
+                data: musicScores,
+                borderColor: '#00ffff',
+                backgroundColor: musicGradient,
+                borderWidth: 3,
+                pointBackgroundColor: '#00ffff',
+                pointRadius: 6,
+                tension: 0.4,
+                fill: true
+            },
+            {
+                label: '🎓 Academic Score',
+                data: academicScores,
+                borderColor: '#6f42c1',
+                backgroundColor: academicGradient,
+                borderWidth: 3,
+                pointBackgroundColor: '#6f42c1',
+                pointRadius: 6,
+                tension: 0.4,
+                fill: true
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        animation: {
+            duration: 1500,
+            easing: 'easeOutQuart'
+        },
+        plugins: {
+            legend: {
+                labels: {
+                    color: "white",
+                    font: {
+                        size: 14
+                    }
+                }
+            },
+            tooltip: {
+                backgroundColor: "#2b1055",
+                titleColor: "#ffffff",
+                bodyColor: "#ffffff",
+                borderColor: "#00ffff",
+                borderWidth: 1
+            }
+        },
+        scales: {
+            x: {
+                ticks: {
+                    color: "white",
+                    font: {
+                        size: 12
+                    }
+                },
+                grid: {
+                    color: "rgba(255,255,255,0.1)"
+                }
+            },
+            y: {
+                beginAtZero: true,
+                max: 100,
+                ticks: {
+                    color: "white",
+                    font: {
+                        size: 12
+                    }
+                },
+                grid: {
+                    color: "rgba(255,255,255,0.1)"
+                }
+            }
+        }
+    }
+});
+</script>
+
+{% endblock %}
