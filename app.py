@@ -710,7 +710,3 @@ if __name__ == '__main__':
     # Use debug=False for production!
     debug_mode = os.getenv('FLASK_ENV', 'development') == 'development'
     app.run(debug=debug_mode, host='0.0.0.0', port=5000)
-
-@app.route('/')
-def home():
-    return render_template('login.html')
